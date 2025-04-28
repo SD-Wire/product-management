@@ -30,7 +30,7 @@ class ProductController extends Controller
         ]);
     }
 
-    // Create new product
+    
    // Create a product
    public function store(StoreProductRequest $request)
    {
@@ -64,7 +64,7 @@ class ProductController extends Controller
         ]);
     }
 
-    // Update product
+    
      // Update a product
      public function update(UpdateProductRequest $request, $id)
      {
